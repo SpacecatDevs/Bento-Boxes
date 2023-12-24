@@ -1,20 +1,12 @@
 <html>
 	<head>
 		<style>
-	<link rel="stylesheet prefetch" href="https://gist.githubusercontent.com/mfd/614e2e80a22b878bde63cb471cbe677e/raw/eef2aabfd0d588d43285431186a0cf70305ceb80/sanfrancisco-font.css">
-/** Regular */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 400;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+	<link rel="preload" href="SFCompactDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin>
+			body {
+    font-family: 'SFCompactDisplay';
+    font-weight: normal;
+    font-style: normal;
 }
-/** Bold */ 
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 700;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
-}
-
 body {
 	display: grid;
 	align-items: center;
